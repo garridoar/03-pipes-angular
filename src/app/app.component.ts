@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   nombre = "Fernando";
+  nombre2 = "fernAndo alberto heRRera jiMenez";
 
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
@@ -32,4 +33,10 @@ export class AppComponent {
     setTimeout( ()=> resolve('Llego la data!'), 3500 );
 
   });
+
+  fecha: Date = new Date();
+
+  video: string = "J8vg40pUvIc";
+
+  activar: boolean = true;
 }
